@@ -1,0 +1,749 @@
+// navbar brand
+.navbar{
+  height: 90px;
+}
+.navbar .navbar-brand img{
+    width: 200px;
+    margin-left: 80px;
+}
+.navbar .input-group input{
+width: 500px;
+height: 30px;
+border-color: black;
+border-radius: 1px;
+margin-top: -30px;
+margin-left: -200px;
+}
+.navbar .input-group input::placeholder{
+    color: black;
+    font-size: 14px;
+}
+.navbar .input-group button{
+height: 30px;
+background-color: #84c225;
+margin-top: -30px;
+
+
+}
+.navbar .input-group button i{
+    color: white;
+    font-size: 18px;
+   
+}
+
+.item{
+    background-color: #eeecec;;
+    padding:0 10px;
+    display: flex;
+    width: 125px;
+    margin-right: 100px;
+    margin-top: -33px;
+}
+.item p{
+  padding-top: 10px;
+  padding-left: 5px;
+  text-align: right;
+}
+
+ .item i{
+    color: red;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+ .item p{
+    font-size: 14px;
+}
+
+.top-item ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    margin-right: 100px;
+}
+.top-item ul li a{
+    color: black;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.top-item ul li a i{
+    margin-right: 5px;
+}
+
+// section dropdown (mega menu)
+
+.navbar1 {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar1 a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown1 {
+    float: left;
+    overflow: hidden;
+    background-color: #84c225;
+    width: 230px;
+    padding: 4px 0px;
+    
+  }
+  .dropbtn2{
+    background-color: #fbfcfb;
+    width: 910px;
+    height: 42px;
+    border: 1px solid rgb(201, 199, 199);
+    
+}
+.dropbtn3{
+  background-color: #fbfcfb;
+ width: 805px;
+  height: 34px;
+  border: 1px solid rgb(201, 199, 199);;
+}
+.dropbtn2 p{
+  font-size: 12px;
+  float: left;
+  width: 100px; 
+  height: 43px;
+  margin-left: -8px;
+  margin-top: -3px;
+  padding-top: 5px;
+
+}
+.dropbtn2 p i{
+  color: rgb(187, 11, 11);
+  font-size: 18px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.dropbtn2 p:hover i{
+  color: white;
+}
+
+.dropbtn2 p:hover{
+  color: white;
+}
+.dropbtn2 p:hover{
+  background-color: #699b1f;
+}
+  .dropdown1 .dropbtn1 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 16px;
+    background-color: inherit;
+    margin: 0;
+    font-weight: 600;
+  }
+
+ 
+ .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #faf7f7;
+    width: 83.5%;
+    left: 100px;
+    z-index: 1;
+    border: 1px solid rgb(184, 180, 180);
+  }
+ 
+  
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 23.33%;
+    padding: 10px;
+    background-color: #faf7f7;
+    height: 480px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1px;
+    border-bottom: 1px solid rgb(199, 198, 198);
+  }
+  
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+// carousel
+
+#demo{
+  margin-top: -23px;
+}
+
+// section one image gallary
+
+.img-gallary{
+  margin: 50px 80px;
+}
+.img-gallary img{
+  width: 185px;
+}
+// section two
+
+.section-two h3{
+text-align: center;
+font-size: 23px;
+color: rgb(92, 92, 92);
+padding-left: 170px;
+}
+.section-two h3 span {
+  float: right;
+  margin-right: 60px;
+}
+.section-two h3 span button{
+background-color: #84c225;
+color: white;
+padding: 5px 15px;
+font-size: 14px;
+}
+
+// section three
+
+.section-three h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+hr{
+  width: 1150px;
+  margin-left: 90px;
+}
+
+.img-grid img{
+  width: 280px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+  cursor: pointer;
+}
+.img-grid{
+  margin: 0 80px;
+}
+
+// section four
+
+.section-four h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+// section five
+
+.section-five h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-two img{
+  width: 280px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+}
+.img-grid-two img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+  cursor: pointer;
+}
+.img-grid-two{
+  margin: 0 80px;
+}
+
+// section six
+
+.section-six h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-three img{
+  width: 280px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid-three img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+  cursor: pointer;
+}
+.img-grid-three{
+  margin: 0 80px;
+}
+
+// section seven
+
+.section-seven h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-four img{
+  width: 180px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid-four img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+
+  cursor: pointer;
+}
+.img-grid-four{
+  margin: 0 80px;
+}
+
+// section eight
+
+.section-eight h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-five img{
+  width: 180px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid-five img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+
+  cursor: pointer;
+}
+.img-grid-five{
+  margin: 0 80px;
+}
+
+// section nine
+
+.section-nine h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-six img{
+  width: 180px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid-six img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+
+  cursor: pointer;
+}
+.img-grid-six{
+  margin: 0 80px;
+}
+
+// Section Ten
+
+.section-ten h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-seven img{
+  width: 280px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid-seven img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+
+  cursor: pointer;
+}
+.img-grid-seven{
+  margin: 0 80px;
+}
+
+// Section Eleven
+
+.section-eleven h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-eight img{
+  width: 280px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid-eight img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+
+  cursor: pointer;
+}
+.img-grid-eight{
+  margin: 0 80px;
+}
+
+// section Twelve
+
+.section-twelve h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-nine img{
+  width: 180px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid-nine img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+
+  cursor: pointer;
+}
+.img-grid-nine{
+  margin: 0 80px;
+}
+
+// section Thirteen
+
+.section-thirteen h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-ten img{
+  width: 180px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid-ten img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+
+  cursor: pointer;
+}
+.img-grid-ten{
+  margin: 0 80px;
+}
+
+// section Thirteen
+
+.section-fourteen h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-eleven img{
+  width: 180px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-grid-eleven img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+
+  cursor: pointer;
+}
+.img-grid-eleven{
+  margin: 0 80px;
+}
+
+// section Fifteen
+
+.section-fifteen h3{
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 92, 92);
+  margin-top: 50px;
+}
+
+.img-grid-twelve img{
+ margin: 0 98px;
+}
+
+// section sixteen
+
+.section-sixteen{
+  margin: 0 85px;
+  margin-top: 50px;
+  border: 1px solid rgb(148, 147, 147);
+  padding: 20px;
+}
+.section-sixteen h3{
+  font-weight: 400;
+}
+.section-sixteen p{
+  font-size: 14px;
+  color: rgb(99, 98, 98);
+}
+.section-sixteen .radio {
+  color: black;
+  font-size: 14px;
+}
+.section-sixteen button{
+  width: 113px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  font-size: 13px;
+  background-color: rgb(211, 209, 209);
+  padding: 3px 15px;
+  margin-left: 10px;
+}
+
+
+// product carousel
+
+#carouselExampleControls .card img{
+  width: 150px;
+  margin: 0 auto;
+}
+#carouselExampleControls .card .card-body p{
+  font-size: 0.7rem;
+  color: grey;
+}
+#carouselExampleControls .card .card-body h5{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+
+#carouselExampleControls  .card{
+  border-radius: 1px;
+}
+#carouselExampleControls  .card img{
+  padding-top: 20px;
+}
+#carouselExampleControls  .card .badge{
+  background-color: white;
+  color: rgb(190, 56, 56);
+  box-shadow: rgba(0, 0, 0, 0.24) 2px 1px 2px;
+  border-radius: 1px;
+  font-size: 10px;
+  text-align: end;
+  height: 25px;
+  padding-top: 8px;
+}
+#carouselExampleControls  .card .list-items .list-group-two img{
+  height: 35px;
+ margin-left: -20px;
+ margin-top: -20px;
+}
+#carouselExampleControls .card .list-items .list-group-one , .list-group-two{
+  list-style: none;
+}
+#carouselExampleControls .card .list-items .list-group-two{
+  display: flex;
+  font-size: 11px;
+}
+#carouselExampleControls .card .list-items .list-group-one{
+  font-size: 10px;
+  padding-left: 10px;
+}
+#carouselExampleControls .card .list-items .list-group-one span{
+  font-size: 13px;
+  padding-left: 10px;
+}
+#carouselExampleControls .list-group .price{
+ border: none;
+}
+#carouselExampleControls .card .list-group select option{
+  font-size: 12px;
+}
+#carouselExampleControls .card .card-body .input-group .form-control{
+width: 50px;
+}
+#carouselExampleControls .card-body .input-group span , input{
+  height: 27px;
+}
+#carouselExampleControls .card .card-body  .card-link button{
+  border: none;
+  background-color: rgb(230, 171, 62);
+  width: 80px;
+  border-radius: 3px;
+  font-size: 12px;
+  height: 25px;
+}
+#carouselExampleControls .card .card-body .card-link button i{
+  padding-left: 8px;
+  color: rgb(83, 83, 83);
+}
+#carouselExampleControls .card .list-group .list-items , .hover{
+  background-color: rgb(243, 242, 242);
+}
+#carouselExampleControls .card .card-body h5{
+  margin-top: -10px;
+}
+#carouselExampleControls{
+  margin-top: 20px;
+}
+#carouselExampleControls .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 10px 5px;
+}
+// footer
+
+.footer{
+  margin: 40px 100px;
+}
+
+.footer .foot-items a{
+ display: block;
+ color: grey;
+ text-decoration: none;
+ font-size: 14px;
+ line-height: 28px;
+}
+.footer .foot-items a:hover{
+  color: #6CD138;
+}
+.footer h6{
+  color: #6CD138;
+  font-weight: 400;
+}
+.footer .icons i{
+  color: white;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  margin: 10px 5px;
+}
+.footer .icons  .fa-facebook-f{
+  background-color: blue;
+  border-radius: 50%;
+  padding: 15px;
+ 
+}
+.footer .icons  .fa-facebook-f:hover{
+  background-color:white;
+  color:  blue;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+
+.footer .icons  .fa-pinterest-p{
+  background-color: rgb(238, 32, 32);
+  border-radius: 50%;
+  padding: 15px;
+ 
+}
+.footer .icons  .fa-pinterest-p:hover{
+  background-color:white;
+  color:  rgb(238, 32, 32);
+  border-radius: 50%;
+  border: 2px solid rgb(238, 32, 32);
+  
+}
+.footer .icons  .fa-twitter{
+  background-color: rgb(61, 110, 216);
+  border-radius: 50%;
+  padding: 15px;
+ 
+}
+.footer .icons  .fa-twitter:hover{
+  background-color:white;
+  color:  rgb(61, 110, 216);
+  border-radius: 50%;
+  border: 2px solid rgb(61, 110, 216);
+  
+ 
+}
+.footer .icons  .fa-instagram{
+  background-color: rgb(209, 32, 165);
+  border-radius: 50%;
+  padding: 15px;
+ 
+}
+.footer .icons  .fa-instagram:hover{
+  background-color:white;
+  color: rgb(209, 32, 165);
+  border-radius: 50%;
+  border: 2px solid rgb(209, 32, 165);
+  
+ 
+}
+
+.footer .foot-img img{
+  padding-top: 10px;
+  width: 140px;
+}
+
+.foot-bot{
+  margin: 40px 100px;
+  
+}
+ .foot-bot h6{
+  color: #6CD138;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.foot-bot p{
+  color: gray;
+  font-size: 14px;
+}
+.foot-end{
+  background-color: #eaeaea;
+}
+.foot-end p{
+  font-size: 12px;
+  padding-top: 10px;
+  color: grey;
+}
+
+#carouselExampleControls .card-wrapper{
+  display: flex;
+  justify-content: center;
+}
+#carouselExampleControls .card{
+  margin: 0.3em;
+  width: calc(84%/5);
+  
+}
+
+.slider #carouselExampleControls .card-wrapper2{
+  display: flex;
+  justify-content: center;
+}
+.slider #carouselExampleControls .card{
+  margin: 0.3em;
+  width: calc(84%/5);
+  
+}
